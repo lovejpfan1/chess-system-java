@@ -29,7 +29,7 @@ public class ChessMatch {
 	
 	public void initialSetup() {
 		board.placePiece(new Rook(Color.BLACK, board), new Position(2, 1));
-		board.placePiece(new King(Color.BLACK, board), new Position(0, 4));
+		board.placePiece(new King(Color.BLACK, board), new Position(2, 4));
 		board.placePiece(new King(Color.WHITE, board), new Position(7, 4));
 	}
 }
